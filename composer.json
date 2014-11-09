@@ -1,0 +1,24 @@
+{
+	"name": "hosopy/fuelphp-sample-component",
+	"type": "fuelphp-component",
+	"description": "FuelPHP sample component",
+	"keywords": ["framework"],
+	"homepage": "http://github.com/hosopy",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hosopy",
+			"email": "dev.hosopy@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+		"composer/installers": "dev-master"
+	},
+	"autoload": {
+		"psr-4": { "Sample\\": "classes/" }
+	},
+	"extra": {
+		"installer-name": "sample"
+	}
+}
